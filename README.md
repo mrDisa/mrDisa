@@ -8,9 +8,9 @@
 
 - 📫 How to reach me **daniil.isaverdov@gmail.com**
 
-- 👨‍💻 All of my projects are available at **[https://in-devspace.ru](https://in-devspace.ru)**
+- 👨‍💻 Devspace are available at **[https://in-devspace.ru](https://in-devspace.ru)**
 
-- 📄 Know about my experiences **[https://drive.google.com/file/d/1IOC8sHgL7-mi-TelEw7E1f-ZUu5qk-yk/view](https://drive.google.com/file/d/1IOC8sHgL7-mi-TelEw7E1f-ZUu5qk-yk/view)**
+- 📄 Know about my experiences **[Click to check resume](https://drive.google.com/file/d/189PE4WJTu8_roakCrCvUOdfwlmZT_EE_/view?usp=sharing)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
