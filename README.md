@@ -2,13 +2,9 @@
 
 ### Go Backend Developer
 
-- 🔭 I'm currently working on [**LinkSpider**](https://github.com/mrDisa/linkspider)
-
-- 🌱 I'm currently Building LinkSpider to learn Go's concurrency model
+- 🔭 I'm currently working on [**Rapsy**](https://github.com/mrDisa/Raspy)
 
 - 📫 How to reach me **daniil.isaverdov@gmail.com**
-
-- 👨‍💻 Devspace are available at **[https://in-devspace.ru](https://in-devspace.ru)**
 
 - 📄 Know about my experiences **[Resume (PDF)](https://drive.google.com/file/d/189PE4WJTu8_roakCrCvUOdfwlmZT_EE_/view?usp=sharing)**
 
