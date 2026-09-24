@@ -6,7 +6,7 @@
 
 - 📫 How to reach me **daniil.isaverdov@gmail.com**
 
-- 📄 Know about my experiences **[Resume (PDF)](https://drive.google.com/file/d/189PE4WJTu8_roakCrCvUOdfwlmZT_EE_/view?usp=sharing)**
+- 📄 Know about my experiences **[Resume (PDF)](https://drive.google.com/file/d/15I0ZpDAx8pV5DSevykuMPuPLeVTASNQV/view)**
 
 **Primary:** Go, Python
 
