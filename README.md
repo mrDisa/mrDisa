@@ -1,73 +1,46 @@
-# Hi 👋, I'm Daniil Isaverdov
+<h1 align="center">Daniil Isaverdov</h1>
 
-### Go Backend Developer
-
-- 💼 **Go Backend Developer at Gouve** · Sep 2026 – present
-  - Team of 6 developers with a team lead: tickets → feature branches → PRs with code review → CI → production
-  - Backend for a Telegram bot and Mini App (time, task and habit tracking) on **Go + PostgreSQL**
-  - Kanban boards with drag-and-drop ordering (transactional ranking with `SELECT … FOR UPDATE`), story points, priority, history with pagination
-  - Live updates over **Server-Sent Events**: change feed, non-blocking fan-out through buffered channels, streams kept out of the DB connection limiter
-  - Found and fixed a middleware bug (missing `Unwrap()` on the `ResponseWriter` wrapper) that cut long data exports after 15 seconds
-  - Stack: Go, net/http, pgx, PostgreSQL, golang-migrate, Docker, GitHub Actions, Next.js / TypeScript
-
-- 🔭 Side project: [**Raspy**](https://github.com/mrDisa/Raspy) — Telegram Mini App with a college timetable (Go, chi, pgx, PostgreSQL)
-
-- 🌱 Learning C → Go at **School 21**
-
-- 📫 How to reach me **daniil.isaverdov@gmail.com** · Telegram [@disawithgod](https://t.me/disawithgod)
-
-- 📄 Know about my experiences **[Resume (PDF)](https://drive.google.com/file/d/1SIX2tka5pg-MbJSoKNWrbef5z-KhvSAf/view)**
-
-**Primary:** Go, PostgreSQL · also Python, TypeScript
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://github.com/mrdisa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="mrdisa" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/mrdisa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mrdisa" height="30" width="40" /></a>
+<p align="center">
+  <b>Go Backend Developer</b> · Moscow · open to remote
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://go.dev" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=go" alt="go" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/>
-  </a>
-  <a href="https://www.djangoproject.com" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=django" alt="django" width="40" height="40"/>
-  </a>
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/>
-  </a>
-  <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/>
-  </a>
-  <a href="https://nextjs.org" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" width="40" height="40"/>
-  </a>
-  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=githubactions" alt="github actions" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=git" alt="git" width="40" height="40"/>
-  </a>
-  <a href="https://www.docker.com" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/>
-  </a>
-  <a href="https://www.nginx.com" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=nginx" alt="nginx" width="40" height="40"/>
-  </a>
-  <a href="https://www.linux.org" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/>
-  </a>
-  <a href="https://www.gnu.org/software/bash" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=bash" alt="bash" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer">
-    <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/>
-  </a>
+<p align="center">
+  <a href="https://t.me/disawithgod"><img src="https://img.shields.io/badge/Telegram-@disawithgod-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="mailto:daniil.isaverdov@gmail.com"><img src="https://img.shields.io/badge/Email-daniil.isaverdov@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://linkedin.com/in/mrdisa"><img src="https://img.shields.io/badge/LinkedIn-mrdisa-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://drive.google.com/file/d/1SIX2tka5pg-MbJSoKNWrbef5z-KhvSAf/view"><img src="https://img.shields.io/badge/Resume-PDF-111111?style=flat-square&logo=readdotcv&logoColor=white" alt="Resume"></a>
 </p>
+
+---
+
+### About
+
+Go backend developer on a product team at **Gouve**. I build services in Go and PostgreSQL: transactions and concurrent data access, real-time over Server-Sent Events, tests that hit a real database. Studying C → Go at **School 21**. Looking for a **Junior / Junior+ Go Backend** role.
+
+### 💼 Experience
+
+**Go Backend Developer · Gouve** &nbsp;—&nbsp; *Sep 2026 – present*  
+Product team of 6 · Telegram bot and Mini App for time, task and habit tracking
+
+- **Fixed data exports breaking at the 15-second mark.** Traced it to an HTTP middleware wrapper without `Unwrap()`, which silently disabled `Flush` and write-deadline extension. The fix turned on streaming responses across the whole API.
+- **Shipped real-time updates over SSE with ~1 s latency.** Pub/sub on a change feed, non-blocking fan-out through buffered channels; streams are isolated from the DB connection pool and don't affect API latency.
+- **Built kanban boards with race-free drag-and-drop** under concurrent editing — ordering is recomputed in one transaction with `SELECT … FOR UPDATE`; story points, priorities, filtered and paginated history.
+- **Designed a data model for tasks living in several lists without duplication:** a flag with a partial index, read/write permissions split at the SQL level, atomic numbering via CTE.
+- **Added per-user time zones:** day boundaries, stats and reminders computed in local time.
+
+### 🚀 Featured projects
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| **[Prolongo](https://github.com/mrDisa/Prolongo)** | Churn-risk analyzer for a hosting provider — who may not renew, why, and how much revenue is at risk. Hackathon case by Aéza. **My part:** Go core — risk model, API, SSE, Prometheus metrics, auth and SSO. | Go · chi · pgx · PostgreSQL · Prometheus · Grafana · Keycloak |
+| **[Raspy](https://github.com/mrDisa/Raspy)** | Telegram Mini App with a personal college timetable. In production: [@raspy_smk_bot](https://t.me/raspy_smk_bot) | Go · chi · pgx · PostgreSQL · Docker · Nginx |
+| **[LinkSpider](https://github.com/mrDisa/LinkSpider)** | Concurrent broken-link checker CLI: worker pool, bounded parallelism, timeouts via `context`. | Go |
+| **[DevSpace](https://github.com/mrDisa/Devspace)** | Social network for developers, team of 2: REST API with JWT and role-based permissions. | Python · Django REST · PostgreSQL |
+
+### 🛠 Tech stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=go,postgres,docker,githubactions,nginx,prometheus,grafana,linux,bash,git,python,django&perline=12" alt="Go, PostgreSQL, Docker, GitHub Actions, Nginx, Prometheus, Grafana, Linux, Bash, Git, Python, Django">
+</p>
+
+**Also:** net/http · chi · pgx · golang-migrate · Server-Sent Events · REST · Telegram Bot API · goroutines & channels · table-driven tests
