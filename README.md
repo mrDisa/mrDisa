@@ -8,18 +8,18 @@
   <a href="https://t.me/disawithgod"><img src="https://img.shields.io/badge/Telegram-@disawithgod-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="mailto:daniil.isaverdov@gmail.com"><img src="https://img.shields.io/badge/Email-daniil.isaverdov@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/in/mrdisa"><img src="https://img.shields.io/badge/LinkedIn-mrdisa-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://drive.google.com/file/d/15Nlh1My_g7TYpPhmz90nAmb6qBoTpQB-/view"><img src="https://img.shields.io/badge/Resume-PDF-111111?style=flat-square&logo=readdotcv&logoColor=white" alt="Resume"></a>
+  <a href="https://drive.google.com/file/d/1AEOvpR_CZOdJoDOwtjraPnuhAjcPIoi6/view"><img src="https://img.shields.io/badge/Resume-PDF-111111?style=flat-square&logo=readdotcv&logoColor=white" alt="Resume"></a>
 </p>
 
 ---
 
 ### About
 
-Junior Go backend developer contributing to **Gouve**, a collaborative product project. I work with Go and PostgreSQL on backend APIs, transactional data access, and Server-Sent Events. I also have hands-on experience building and deploying a Telegram Mini App. Studying C → Go at **School 21**; seeking a **Junior Go Backend Developer** role.
+Junior Go backend developer contributing to a collaborative product project. I work with Go and PostgreSQL on backend APIs, transactional data access, and Server-Sent Events. I also have hands-on experience building and deploying a Telegram Mini App. Studying C → Go at **School 21**; seeking a **Junior Go Backend Developer** role.
 
 ### 💼 Experience
 
-**Go Backend Developer · Gouve** &nbsp;—&nbsp; *Sep 2026 – present*  
+**Go Backend Developer · Product team** &nbsp;—&nbsp; *Sep 2026 – present*  
 Collaborative product project · team of 6 developers · Telegram bot and Mini App for time, task and habit tracking
 
 Our workflow includes a team lead, task tracking, regular syncs, pull-request reviews and shared backend development. I contribute to assigned tasks, discuss implementation choices with teammates and review feedback before changes are integrated. The product is still under development; no public release date has been set.
