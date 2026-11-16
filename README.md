@@ -8,23 +8,25 @@
   <a href="https://t.me/disawithgod"><img src="https://img.shields.io/badge/Telegram-@disawithgod-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="mailto:daniil.isaverdov@gmail.com"><img src="https://img.shields.io/badge/Email-daniil.isaverdov@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/in/mrdisa"><img src="https://img.shields.io/badge/LinkedIn-mrdisa-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://drive.google.com/file/d/1SIX2tka5pg-MbJSoKNWrbef5z-KhvSAf/view"><img src="https://img.shields.io/badge/Resume-PDF-111111?style=flat-square&logo=readdotcv&logoColor=white" alt="Resume"></a>
+  <a href="https://drive.google.com/file/d/1AEOvpR_CZOdJoDOwtjraPnuhAjcPIoi6/view"><img src="https://img.shields.io/badge/Resume-PDF-111111?style=flat-square&logo=readdotcv&logoColor=white" alt="Resume"></a>
 </p>
 
 ---
 
 ### About
 
-Go backend developer on a product team at **Gouve**. I build services in Go and PostgreSQL: transactions and concurrent data access, real-time over Server-Sent Events, tests that hit a real database. Studying C → Go at **School 21**. Looking for a **Junior / Junior+ Go Backend** role.
+Junior Go backend developer contributing to a collaborative product project. I work with Go and PostgreSQL on backend APIs, transactional data access, and Server-Sent Events. I also have hands-on experience building and deploying a Telegram Mini App. Studying C → Go at **School 21**; seeking a **Junior Go Backend Developer** role.
 
 ### 💼 Experience
 
-**Go Backend Developer · Gouve** &nbsp;—&nbsp; *Sep 2026 – present*  
-Product team of 6 · Telegram bot and Mini App for time, task and habit tracking
+**Go Backend Developer · Product team** &nbsp;—&nbsp; *Sep 2026 – present*  
+Collaborative product project · team of 6 developers · Telegram bot and Mini App for time, task and habit tracking
+
+Our workflow includes a team lead, task tracking, regular syncs, pull-request reviews and shared backend development. I contribute to assigned tasks, discuss implementation choices with teammates and review feedback before changes are integrated. The product is still under development; no public release date has been set.
 
 - **Fixed data exports breaking at the 15-second mark.** Traced it to an HTTP middleware wrapper without `Unwrap()`, which silently disabled `Flush` and write-deadline extension. The fix turned on streaming responses across the whole API.
-- **Shipped real-time updates over SSE with ~1 s latency.** Pub/sub on a change feed, non-blocking fan-out through buffered channels; streams are isolated from the DB connection pool and don't affect API latency.
-- **Built kanban boards with race-free drag-and-drop** under concurrent editing — ordering is recomputed in one transaction with `SELECT … FOR UPDATE`; story points, priorities, filtered and paginated history.
+- **Worked on real-time updates over SSE.** Pub/sub on a change feed, non-blocking fan-out through buffered channels; streams are isolated from the DB connection pool to avoid holding DB connections open during streaming.
+- **Implemented kanban board functionality and concurrency-safe ordering** — ordering is recomputed in one transaction with `SELECT … FOR UPDATE`; story points, priorities, filtered and paginated history.
 - **Designed a data model for tasks living in several lists without duplication:** a flag with a partial index, read/write permissions split at the SQL level, atomic numbering via CTE.
 - **Added per-user time zones:** day boundaries, stats and reminders computed in local time.
 
