@@ -1,12 +1,17 @@
+<div align="center">
+
 # Daniil Isaverdov
 
-**Go Backend Developer**  
+**Go Backend Developer**
+
 Building backend services with a focus on reliability, concurrency, and clean architecture.
 
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/disawithgod)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:daniil.isaverdov@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrdisa)
 [![Resume](https://img.shields.io/badge/Resume-334155?style=flat-square&logoColor=white)](https://drive.google.com/file/d/1AEOvpR_CZOdJoDOwtjraPnuhAjcPIoi6/view)
+
+</div>
 
 ---
 
@@ -47,4 +52,4 @@ I collaborate through task tracking, feature branches, pull requests, and code r
 
 ---
 
-<sub>See the pinned repositories below for projects and source code.</sub>
+<p align="center"><sub>See the pinned repositories below for projects and source code.</sub></p>
