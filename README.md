@@ -1,93 +1,109 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=195&color=0:0F172A,55:164E63,100:0891B2&text=Daniil%20Isaverdov&fontColor=FFFFFF&fontSize=42&fontAlignY=38&desc=Go%20Backend%20Developer%20%7C%20APIs%20%E2%80%A2%20Concurrency%20%E2%80%A2%20Real-time&descSize=15&descAlignY=60" alt="Daniil Isaverdov — Go Backend Developer" width="100%"/>
-
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/disawithgod)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daniil.isaverdov@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrdisa)
-[![Resume](https://img.shields.io/badge/Resume-334155?style=for-the-badge&logo=readme&logoColor=white)](https://drive.google.com/file/d/1AEOvpR_CZOdJoDOwtjraPnuhAjcPIoi6/view)
-
-</div>
-
-### 👋 About me
-
-I'm a **Go backend developer** working on a product in a **6-person development team**. I build HTTP APIs, work with PostgreSQL transactions, and implement concurrent and real-time features.
-
-- 🔧 **Focus:** Go · backend architecture · reliability · performance
-- 🎓 **Learning:** ITHub · School 21 (C → Go)
-- 🎯 **Open to:** Junior Go Backend Developer roles
-
-### ⚡ Engineering highlights
-
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="72%" valign="middle">
 
-**🔄 Concurrency & consistency**
+# Daniil Isaverdov
 
-Kanban ordering with PostgreSQL transactions and `SELECT FOR UPDATE`. Data modeling, partial indexes, and atomic numbering.
+### Go Backend Developer
 
-</td>
-<td width="50%" valign="top">
+I build backend APIs and real-time features with **Go** and **PostgreSQL**.
 
-**📡 Real-time systems**
+**Focus:** concurrency · data consistency · reliability
 
-SSE streams and pub/sub with buffered Go channels, keeping long-lived connections separate from database operations.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🛠 HTTP debugging**
-
-Traced broken streaming exports to middleware missing `Unwrap()` and restored flushing and deadline handling.
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/disawithgod)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:daniil.isaverdov@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrdisa)
+[![Resume](https://img.shields.io/badge/Resume-334155?style=flat-square&logoColor=white)](https://drive.google.com/file/d/1AEOvpR_CZOdJoDOwtjraPnuhAjcPIoi6/view)
 
 </td>
-<td width="50%" valign="top">
+<td width="28%" align="center" valign="middle">
 
-**🕒 Time-aware data**
-
-User time zones, calendar boundaries, activity statistics, and tests around date edge cases.
+<img src="https://go.dev/blog/gopher/gopher.png" width="175" alt="Go Gopher mascot by Renée French"/>
 
 </td>
 </tr>
 </table>
 
-<sub>Current work: <b>Gouve</b> — Telegram bot and Mini App for tasks, habits, and time tracking · Aug 2026 – present · feature branches, pull requests and code reviews.</sub>
+### About
 
-### 🧰 Tech stack
+I'm a Go backend developer contributing to a product built by a **6-person team**. I work on HTTP APIs, PostgreSQL data models, and concurrent and real-time functionality.
 
-<div align="center">
+Currently studying at **ITHub** and **School 21** (C → Go). Open to **Junior Go Backend Developer** opportunities.
 
-<img src="https://skillicons.dev/icons?i=go,postgres,docker,linux,git,githubactions,nginx,python,django&perline=9" alt="Go, PostgreSQL, Docker, Linux, Git, GitHub Actions, Nginx, Python, Django"/>
+### Engineering experience
 
-<br/>
+**Gouve** · Go Backend Developer · `Aug 2026 – present`  
+*Telegram bot and Mini App for time, task, and habit tracking*
 
-`net/http` · `chi` · `pgx` · REST · SSE · goroutines · channels · SQL · Docker Compose · table-driven tests
+<table>
+<tr>
+<td width="50%" valign="top">
 
-</div>
+**Concurrency & consistency**
 
-### 📊 GitHub activity
+Kanban board ordering with transactions and `SELECT FOR UPDATE`. SQL data modeling, partial indexes, and atomic numbering.
 
-<div align="center">
+</td>
+<td width="50%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mrDisa&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub account statistics" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrDisa&layout=compact&hide_border=true&theme=transparent&langs_count=6" alt="Most used languages in public repositories" height="165"/>
+**Real-time systems**
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mrDisa&theme=github-compact&hide_border=true&area=true" alt="GitHub contribution activity graph" width="98%"/>
+SSE updates, pub/sub, and buffered Go channels, without holding database connections open for active streams.
 
-</div>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**HTTP debugging**
+
+Found an export-streaming issue in middleware missing `Unwrap()`, preventing proper flushing and write-deadline handling.
+
+</td>
+<td width="50%" valign="top">
+
+**Time-aware backend**
+
+User time zones, calendar boundaries, activity statistics, and tests for date edge cases.
+
+</td>
+</tr>
+</table>
+
+Team workflow: task tracking · feature branches · pull requests · code review
+
+### Tech stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=go,postgres,docker,linux,git,githubactions,nginx,python,django&perline=9" alt="Go, PostgreSQL, Docker, Linux, Git, GitHub Actions, Nginx, Python, Django"/>
+</p>
+
+| Backend | Data | Infrastructure |
+| :--- | :--- | :--- |
+| Go · `net/http` · chi | PostgreSQL · pgx | Docker Compose · Linux |
+| REST · SSE · goroutines | SQL · transactions | Nginx · GitHub Actions |
+| Table-driven tests | Migrations · indexes | Git · pull requests |
+
+### How the pieces fit together
+
+```mermaid
+flowchart LR
+    A["Telegram Mini App"] --> B["Go HTTP API"]
+    B --> C[("PostgreSQL")]
+    B --> D["SSE / real-time updates"]
+    D --> A
+```
 
 <details>
-<summary><b>📚 What I'm exploring next</b></summary>
+<summary><b>Currently exploring</b></summary>
 
-Go internals, distributed systems, observability, and performance optimization.
+Go internals, system design, observability, and performance optimization.
 
 </details>
 
 ---
 
-<div align="center">
-  <sub>Explore my code in the pinned repositories below ↓</sub>
-</div>
+<p align="center">
+<sub>Projects and code are available in the pinned repositories below.</sub><br/>
+<sub>Go Gopher artwork by <a href="https://go.dev/blog/gopher">Renée French</a>, CC BY 4.0.</sub>
+</p>
