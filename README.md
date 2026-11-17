@@ -1,48 +1,60 @@
-<h1 align="center">Daniil Isaverdov</h1>
+<div align="center">
 
-<p align="center">
-  <b>Go Backend Developer</b> · Moscow · open to remote
-</p>
+# Daniil Isaverdov
 
-<p align="center">
-  <a href="https://t.me/disawithgod"><img src="https://img.shields.io/badge/Telegram-@disawithgod-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
-  <a href="mailto:daniil.isaverdov@gmail.com"><img src="https://img.shields.io/badge/Email-daniil.isaverdov@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://linkedin.com/in/mrdisa"><img src="https://img.shields.io/badge/LinkedIn-mrdisa-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://drive.google.com/file/d/1AEOvpR_CZOdJoDOwtjraPnuhAjcPIoi6/view"><img src="https://img.shields.io/badge/Resume-PDF-111111?style=flat-square&logo=readdotcv&logoColor=white" alt="Resume"></a>
-</p>
+**Go Backend Developer** · Building reliable APIs and real-time services
+
+[![Telegram](https://img.shields.io/badge/Telegram-Contact-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/disawithgod)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:daniil.isaverdov@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mrdisa)
+[![Resume](https://img.shields.io/badge/Resume-PDF-333333?style=flat-square&logo=readme&logoColor=white)](https://drive.google.com/file/d/1AEOvpR_CZOdJoDOwtjraPnuhAjcPIoi6/view)
+
+</div>
 
 ---
 
-### About
+### About me
 
-Junior Go backend developer contributing to a collaborative product project. I work with Go and PostgreSQL on backend APIs, transactional data access, and Server-Sent Events. I also have hands-on experience building and deploying a Telegram Mini App. Studying C → Go at **School 21**; seeking a **Junior Go Backend Developer** role.
+I'm a Go backend developer working on a product with a **6-person development team**. I focus on HTTP APIs, PostgreSQL, concurrency, and real-time features. I enjoy understanding how systems behave under the hood — not just making them work.
 
-### 💼 Experience
+Currently studying software development at **ITHub** and **School 21** (C → Go). Open to **Junior Go Backend** opportunities.
 
-**Go Backend Developer · Product team** &nbsp;—&nbsp; *Sep 2026 – present*  
-Collaborative product project · team of 6 developers · Telegram bot and Mini App for time, task and habit tracking
+### What I've been working on
 
-Our workflow includes a team lead, task tracking, regular syncs, pull-request reviews and shared backend development. I contribute to assigned tasks, discuss implementation choices with teammates and review feedback before changes are integrated. The product is still under development; no public release date has been set.
+**Gouve · Go Backend Developer** `Aug 2026 – present`  
+*Telegram bot and Mini App for tasks, habits, and time tracking*
 
-- **Fixed data exports breaking at the 15-second mark.** Traced it to an HTTP middleware wrapper without `Unwrap()`, which silently disabled `Flush` and write-deadline extension. The fix turned on streaming responses across the whole API.
-- **Worked on real-time updates over SSE.** Pub/sub on a change feed, non-blocking fan-out through buffered channels; streams are isolated from the DB connection pool to avoid holding DB connections open during streaming.
-- **Implemented kanban board functionality and concurrency-safe ordering** — ordering is recomputed in one transaction with `SELECT … FOR UPDATE`; story points, priorities, filtered and paginated history.
-- **Designed a data model for tasks living in several lists without duplication:** a flag with a partial index, read/write permissions split at the SQL level, atomic numbering via CTE.
-- **Added per-user time zones:** day boundaries, stats and reminders computed in local time.
+- **Concurrency & consistency:** implemented kanban board ordering with PostgreSQL transactions and `SELECT FOR UPDATE`.
+- **Real-time delivery:** built SSE updates with pub/sub and buffered channels, keeping streaming separate from database connections.
+- **HTTP internals:** debugged an export timeout caused by middleware not forwarding `Unwrap()`, restoring streaming responses.
+- **Data modeling:** worked with schema migrations, partial indexes, SQL permissions, and atomic numbering.
+- **Time-sensitive logic:** implemented per-user time zones, calendar boundaries, activity statistics, and tests for date edge cases.
 
-### 🚀 Featured projects
+I work with task tracking, feature branches, pull requests, and code reviews.
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **[Prolongo](https://github.com/mrDisa/Prolongo)** | Churn-risk analyzer for a hosting provider — who may not renew, why, and how much revenue is at risk. Hackathon case by Aéza. **My part:** Go core — risk model, API, SSE, Prometheus metrics, auth and SSO. | Go · chi · pgx · PostgreSQL · Prometheus · Grafana · Keycloak |
-| **[Raspy](https://github.com/mrDisa/Raspy)** | Telegram Mini App with a personal college timetable. In production: [@raspy_smk_bot](https://t.me/raspy_smk_bot) | Go · chi · pgx · PostgreSQL · Docker · Nginx |
-| **[LinkSpider](https://github.com/mrDisa/LinkSpider)** | Concurrent broken-link checker CLI: worker pool, bounded parallelism, timeouts via `context`. | Go |
-| **[DevSpace](https://github.com/mrDisa/Devspace)** | Social network for developers, team of 2: REST API with JWT and role-based permissions. | Python · Django REST · PostgreSQL |
+### Toolbox
 
-### 🛠 Tech stack
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=go,postgres,docker,linux,git,githubactions,nginx,python,django&perline=9" alt="Go, PostgreSQL, Docker, Linux, Git, GitHub Actions, Nginx, Python and Django" />
+</div>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=go,postgres,docker,githubactions,nginx,prometheus,grafana,linux,bash,git,python,django&perline=12" alt="Go, PostgreSQL, Docker, GitHub Actions, Nginx, Prometheus, Grafana, Linux, Bash, Git, Python, Django">
-</p>
+| Area | Technologies |
+| :--- | :--- |
+| **Backend** | Go · `net/http` · chi · REST APIs · SSE · goroutines & channels |
+| **Data** | PostgreSQL · pgx · SQL · transactions · migrations |
+| **Infrastructure** | Docker Compose · Linux · Nginx · GitHub Actions |
+| **Practices** | Git · pull requests · code review · table-driven tests |
+| **Also** | Python · Django REST Framework · C |
 
-**Also:** net/http · chi · pgx · golang-migrate · Server-Sent Events · REST · Telegram Bot API · goroutines & channels · table-driven tests
+<details>
+<summary><b>What I'm learning</b></summary>
+
+Deeper Go internals, reliable backend architecture, system design, and performance optimization.
+
+</details>
+
+---
+
+<div align="center">
+  <sub>Code and projects are available in the repositories below ↓</sub>
+</div>
